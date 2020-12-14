@@ -1,38 +1,49 @@
-.App {
+html {
+  scroll-snap-type: y mandatory;
+}
+
+.app {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.app__top > h2 {
+  color: white;
+  text-align: center;
+}
+.app__top > p {
+  color: white;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app__logo {
+  height: 12.7vh;
+  /* margin-top: 5px; */
+  margin: 0 80px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app__conatiner {
+  cursor: pointer;
+  position: relative;
+  height: 65vh;
+  background-color: gray;
+  width: 85%;
+  height: 97.7%;
+  border-radius: 20px;
+  max-width: 270px;
+  max-height: 1200px;
+  overflow: scroll;
+  scroll-snap-type: y mandatory;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Hide the Scrollbar  */
+.app__conatiner::-webkit-scrollbar {
+  display: none; /*Chrome and Safari*/
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app__conatiner {
+  -ms-overflow-style: none; /*IE and Edge*/
+  scrollbar-width: none; /*Firefox*/
 }

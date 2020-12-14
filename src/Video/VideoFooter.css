@@ -1,0 +1,100 @@
+.videoFooter {
+  position: relative;
+  bottom: 80px;
+  margin-left: 10px;
+}
+
+.videoFooter__text {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.videoFooter__text > h3 {
+  margin-left: 10px;
+  padding-bottom: 20px;
+  font-size: 16px;
+}
+
+.videoFooter__text > h3 > span {
+  color: #1ea1f7;
+  font-weight: 900;
+  font-size: 14px;
+  text-transform: inherit;
+  text-decoration: underline;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.videoFooter__text > h3 > span:hover {
+  color: white;
+}
+
+.videoFooter__icon {
+  position: absolute;
+  left: 5px;
+  color: white;
+}
+
+.videoFooter__ticker > .ticker {
+  width: 60%;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  height: fit-content;
+  color: white;
+}
+
+.videoFooter__ticker > h5 {
+  padding-top: 7px;
+  font-size: 12px;
+}
+
+.videoFooter__ticker > .MuiSvgIcon-root:hover {
+  color: crimson;
+}
+
+.videoFooter__actions {
+  display: flex;
+  position: absolute;
+  width: 95%;
+  justify-content: space-between;
+  color: white;
+}
+
+.videoFooter__actionsLeft > .MuiSvgIcon-root {
+  padding: 0 7px;
+}
+
+.videoFooter__actionsLeft > .MuiSvgIcon-root:hover {
+  color: #ec4a61;
+}
+
+.videoFooter__actionsRight {
+  display: flex;
+}
+
+.videoFooter__stat {
+  display: flex;
+  align-items: center;
+  margin-right: -6px;
+  font-size: 14px;
+}
+
+.videoFooter__stat > .MuiSvgIcon-root {
+  margin-left: 5px;
+}
+.videoFooter__stat > .MuiSvgIcon-root:hover {
+  color: #ec4a61;
+}
+
+.videoFooter__stat > p {
+  margin-left: 3px;
+  margin-right: 2px;
+  color: white;
+}
+
+.videoFooter__stat > p:hover {
+  color: black;
+}

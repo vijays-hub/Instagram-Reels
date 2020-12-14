@@ -1,0 +1,16 @@
+.videoHeader {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 96%;
+  color: white;
+}
+
+/* Targetting all the children and everything underneath it */
+.videoHeader > * {
+  padding: 20px;
+}
+
+.MuiSvgIcon-root:hover {
+  color: white;
+}
